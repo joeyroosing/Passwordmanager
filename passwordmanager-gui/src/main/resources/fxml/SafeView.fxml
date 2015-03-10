@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane fx:id="root" prefHeight="500.0" prefWidth="252.0" xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.svarasoft.passwordmanager.presenters.SafePresenter">
+    <children>
+        <Label layoutX="8.0" prefHeight="35.0" prefWidth="170.0" text="%safe_header" textFill="#6682b5"
+               AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="74.0" AnchorPane.topAnchor="0.0">
+            <font>
+                <Font size="28.0"/>
+            </font>
+        </Label>
+        <BorderPane prefHeight="500.0" prefWidth="252.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                    AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+            <center>
+                <TreeView fx:id="categoryTree" prefHeight="450.0" prefWidth="252.0" BorderPane.alignment="CENTER">
+                    <opaqueInsets>
+                        <Insets/>
+                    </opaqueInsets>
+                    <BorderPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0"/>
+                    </BorderPane.margin>
+                </TreeView>
+            </center>
+        </BorderPane>
+    </children>
+</AnchorPane>

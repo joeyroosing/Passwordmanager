@@ -1,0 +1,92 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.a
+*.so
+
+# java specific #
+#################
+*target*
+*.jar
+*.war
+*.ear
+
+# netbeans files #
+##################
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# general files #
+#################
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.DS_Store
+*.lock
+*.log
+*.out
+*.info
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Temporary files #
+###################
+*~
+
+# Hidden files #
+###################
+.*
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trash*
+Icon?
+ehthumbs.db
+Thumbs.db
+
+assignment01/src/main/resources/index_lucene
+assignment01/target/*
+assignment01/bin/*
+*.ini
+
+assignment03/src/main/resources/index_lucene
+assignment03/target/*
+assignment03/bin/*
+assignment03/res/*
+
+assignment04/bin
+assignment04/tmp

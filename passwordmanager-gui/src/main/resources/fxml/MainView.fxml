@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane fx:id="root" prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.svarasoft.passwordmanager.presenters.MainPresenter">
+    <children>
+        <BorderPane layoutX="137.0" layoutY="40.0" prefHeight="600.0" prefWidth="700.0" AnchorPane.bottomAnchor="0.0"
+                    AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <top>
+                <MenuBar BorderPane.alignment="CENTER">
+                    <menus>
+                        <Menu mnemonicParsing="false" text="%file">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="%close"/>
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="%category">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="%new"/>
+                                <MenuItem mnemonicParsing="false" text="%edit"/>
+                                <MenuItem mnemonicParsing="false" text="%delete"/>
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="%password">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="%new"/>
+                                <MenuItem mnemonicParsing="false" text="%edit"/>
+                                <MenuItem mnemonicParsing="false" text="%delete"/>
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="%help">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="%about"/>
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar>
+            </top>
+            <center>
+                <SplitPane fx:id="contentArea" dividerPositions="0.26504297994269344" focusTraversable="true"
+                           prefHeight="160.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+
+                </SplitPane>
+            </center>
+        </BorderPane>
+    </children>
+</AnchorPane>
