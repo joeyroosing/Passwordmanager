@@ -5,10 +5,17 @@
  */
 package com.svarasoft.passwordmanager.datamanager;
 
+import java.sql.Connection;
+
 /**
  *
  * @author Joey
  */
 public class H2DatabaseManager implements DatabaseManager {
+
+    @Override
+    public Connection connect() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

@@ -5,10 +5,12 @@
  */
 package com.svarasoft.passwordmanager.datamanager;
 
+import java.sql.Connection;
+
 /**
  *
  * @author Joey
  */
 public interface DatabaseManager {
-    
+    Connection connect();
 }

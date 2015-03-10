@@ -90,3 +90,4 @@ assignment03/res/*
 
 assignment04/bin
 assignment04/tmp
+*.properties
