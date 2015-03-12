@@ -8,7 +8,7 @@ package com.svarasoft.passwordmanager.presenters;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.TextField;
-import com.svarasoft.passwordmanager.entities.Password;
+import com.svarasoft.passwordmanager.models.Password;
 
 import javax.inject.Singleton;
 

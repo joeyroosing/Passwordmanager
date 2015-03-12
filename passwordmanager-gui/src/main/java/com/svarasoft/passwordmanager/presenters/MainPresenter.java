@@ -3,7 +3,7 @@ package com.svarasoft.passwordmanager.presenters;
 import javafx.fxml.FXML;
 import javafx.scene.Parent;
 import javafx.scene.control.SplitPane;
-import com.svarasoft.passwordmanager.entities.Password;
+import com.svarasoft.passwordmanager.models.Password;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;

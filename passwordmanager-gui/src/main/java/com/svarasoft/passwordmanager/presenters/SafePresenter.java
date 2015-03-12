@@ -12,8 +12,8 @@ import javafx.scene.control.TreeItem;
 import javafx.scene.control.TreeView;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import com.svarasoft.passwordmanager.entities.Category;
-import com.svarasoft.passwordmanager.entities.Password;
+import com.svarasoft.passwordmanager.models.Category;
+import com.svarasoft.passwordmanager.models.Password;
 import com.svarasoft.passwordmanager.services.PasswordManagerService;
 import com.svarasoft.passwordmanager.utils.Constants;
 

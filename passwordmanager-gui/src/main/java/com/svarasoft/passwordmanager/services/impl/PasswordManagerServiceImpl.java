@@ -7,8 +7,8 @@
 package com.svarasoft.passwordmanager.services.impl;
 
 
-import com.svarasoft.passwordmanager.daos.CategoryDao;
-import com.svarasoft.passwordmanager.entities.Category;
+import com.svarasoft.passwordmanager.dao.CategoryDao;
+import com.svarasoft.passwordmanager.models.Category;
 import com.svarasoft.passwordmanager.services.PasswordManagerService;
 
 import javax.inject.Inject;

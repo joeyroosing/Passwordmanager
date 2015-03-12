@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.svarasoft.passwordmanager.daos;
+package com.svarasoft.passwordmanager.dao;
 
 import com.google.inject.ImplementedBy;
-import com.svarasoft.passwordmanager.daos.impl.CategoryDaoImpl;
-import com.svarasoft.passwordmanager.entities.Category;
+import com.svarasoft.passwordmanager.dao.impl.CategoryDaoImpl;
+import com.svarasoft.passwordmanager.models.Category;
 
 import java.util.List;
 

@@ -7,7 +7,7 @@
 package com.svarasoft.passwordmanager.services;
 
 import com.google.inject.ImplementedBy;
-import com.svarasoft.passwordmanager.entities.Category;
+import com.svarasoft.passwordmanager.models.Category;
 import com.svarasoft.passwordmanager.services.impl.PasswordManagerServiceImpl;
 
 import java.util.List;

@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.svarasoft.passwordmanager.entities;
+package com.svarasoft.passwordmanager.models;
 
+import com.svarasoft.passwordmanager.model.tables.definitions.CategoryTable;
 import javafx.collections.ObservableList;
 
 import java.util.ArrayList;
@@ -14,7 +15,7 @@ import java.util.UUID;
 /**
  * @author Joey
  */
-public class Category {
+public class Category extends CategoryTable {
 
     private String id;
     private String name;

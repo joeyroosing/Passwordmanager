@@ -6,8 +6,8 @@ import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import com.svarasoft.passwordmanager.data.DataStorage;
-import com.svarasoft.passwordmanager.entities.Category;
-import com.svarasoft.passwordmanager.entities.Password;
+import com.svarasoft.passwordmanager.models.Category;
+import com.svarasoft.passwordmanager.models.Password;
 import com.svarasoft.passwordmanager.presenters.MainPresenter;
 import com.svarasoft.passwordmanager.utils.Constants;
 import com.svarasoft.passwordmanager.utils.I18n;
@@ -31,33 +31,6 @@ public class MainApp extends Application {
         stage.setMinWidth(Constants.MAIN_VIEW_WIDTH);
         stage.setMinHeight(Constants.MAIN_VIEW_HEIGHT);
         stage.show();
-    }
-
-    /**
-     * Functions as a test method to see if writing json works
-     */
-    @SuppressWarnings("UnusedDeclaration")
-    public void writeJson() {
-        List<Category> myCats = new ArrayList<>();
-        Category cat1 = new Category();
-        cat1.setName("cat1");
-        cat1.generateId();
-
-        Password pass1 = new Password();
-        pass1.setName("pass1");
-        pass1.generateId();
-        cat1.addPassword(pass1);
-
-        myCats.add(cat1);
-        DataStorage.getInstance().saveData(myCats);
-    }
-
-    /**
-     * Functions as a test method to see if reading json works
-     */
-    @SuppressWarnings("UnusedDeclaration")
-    public void readJson() {
-        System.out.println(DataStorage.getInstance().loadData());
     }
 
     /**

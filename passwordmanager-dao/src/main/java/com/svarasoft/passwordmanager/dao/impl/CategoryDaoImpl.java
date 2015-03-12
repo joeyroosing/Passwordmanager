@@ -3,12 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.svarasoft.passwordmanager.daos.impl;
+package com.svarasoft.passwordmanager.dao.impl;
 
 
-import com.svarasoft.passwordmanager.daos.CategoryDao;
-import com.svarasoft.passwordmanager.data.DataStorage;
-import com.svarasoft.passwordmanager.entities.Category;
+import com.svarasoft.passwordmanager.dao.CategoryDao;
+import com.svarasoft.passwordmanager.models.Category;
 
 import java.util.List;
 
@@ -17,8 +16,9 @@ import java.util.List;
  */
 public class CategoryDaoImpl implements CategoryDao {
 
+    // TODO: implement
     @Override
     public List<Category> allCategories() {
-        return DataStorage.getInstance().loadData();
+        return null;
     }
 }

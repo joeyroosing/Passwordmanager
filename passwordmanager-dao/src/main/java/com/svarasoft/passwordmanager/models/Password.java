@@ -4,14 +4,15 @@
  * and open the template in the editor.
  */
 
-package com.svarasoft.passwordmanager.entities;
+package com.svarasoft.passwordmanager.models;
 
+import com.svarasoft.passwordmanager.model.tables.definitions.PasswordTable;
 import java.util.UUID;
 
 /**
  * @author Joey
  */
-public final class Password {
+public final class Password extends PasswordTable {
 
     private String id;
     private String url;
