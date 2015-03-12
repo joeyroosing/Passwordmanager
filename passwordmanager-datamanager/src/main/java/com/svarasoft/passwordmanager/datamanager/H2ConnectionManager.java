@@ -52,11 +52,9 @@ public class H2ConnectionManager implements ConnectionManager {
         String username = "sa";
         String password = "h2defpass sapass4h2db";
         if (properties != null) {
-            url = properties.getProperty("datasource.URL");
             username = properties.getProperty("dataSource.user");
             password = properties.getProperty("dataSource.filePass");
             password += " " + properties.getProperty("dataSource.password");
-
         }
         Connection conn = DriverManager.getConnection(url, username, password);
         return conn;
@@ -77,8 +75,6 @@ public class H2ConnectionManager implements ConnectionManager {
         FileInputStream fis = null;
         try {
             Properties properties = new Properties(); 
-
-            // if file eixsts, load it, otherwise create with defaults
             fis = new FileInputStream(PROPERTIES_LOCATION);
             properties.load(fis);
             return properties;
