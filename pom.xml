@@ -10,7 +10,16 @@
     <organization>
         <!-- Used as the 'Vendor' for JNLP generation -->
         <name>Svarasoft</name>
+        <url>http://www.svarasoft.com</url>
     </organization>
+    
+    <developers>
+        <developer>
+            <id>jroosing</id>
+            <name>Joey Roosing</name>
+            <email>jroosing@gmail.com</email>
+        </developer>
+    </developers>
     
     <modules>
         <module>passwordmanager-security</module>
